@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+margin: 0%;
+padding: 0%;
+}
+
+body{
+    background-image: url(https://cdn.freecodecamp.org/testable-projects-fcc/images/survey-form-background.jpeg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-attachment: fixed;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    font-family: "Poppins";
+    color: white;
+}
+body>h1{
+margin-top: 2rem;
+}
+body>p{
+text-align: center;
+font-size:large;
+}
+
+form{
+    width: 35rem;
+    max-height: initial;
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+    opacity: 0.8;
+    color: aliceblue;
+    padding:2rem;
+    font-size: medium;
+    margin-bottom: 0%;
+    gap:10px;
+    flex-wrap: wrap;
+}
+
+
+fieldset{
+    border: none;
+    line-height: 2rem;
+}
+input[type="submit"]{
+    background-color: rgb(15, 197, 91);
+    padding:10px;
+    margin: 5% 0% 15% 0%;
+    color: white;
+    border-radius: 2px;
+}
+input[type="text"],input[type="number"],input[type="email"],select{
+    padding: 10px;
+    border-radius: 5px;
+    font-size: medium;
+}
+textarea{
+    border-radius: 2px;
+}
+@media (max-width:644px) {
+    form{
+    width: 25rem;
+    }
+}

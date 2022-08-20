@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+*{
+    margin:0%;
+    padding: 0%;
+}
+body{
+    padding: 15px;
+}
+main{
+    padding:3% 0px 5%;
+    background-color: #EEEEEE;
+    border-radius: 5px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    font-family: "Roboto";
+}
+main h1{
+    font-size:xx-large;
+
+}
+ figure{
+    width: 88%;
+    background-color:white;
+    padding: 1rem 3% 1rem ;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+ }
+ figure figcaption{
+    text-align: center;
+ }
+figure>img{
+    max-width: 100%;
+    height: auto;
+}
+figure+h2{
+text-align: center;
+padding:2rem 0rem 2rem;
+}
+.container{
+    /* padding: 0rem 25% 0rem 30%; */
+    width:24.8rem;
+}
+.container > p{
+padding-top:2rem ;
+line-height: 1.8rem;
+margin:-1rem;
+}
+ul{
+    line-height: 1rem;
+}
+ul>li{
+    padding:10px;
+    line-height: 1.8rem;
+}
+.container+h3{
+    margin-top: 3rem;
+    text-align: center;
+}
+@media screen and (min-width:640px) {
+    .container{
+    width:32rem;
+    }
+    figure{
+        width: 91%;
+    }
+}
